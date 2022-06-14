@@ -112,3 +112,56 @@ header .menu {
 #who-we-are img {
     min-width: 420px;
 }
+
+.container-external {
+    background-color: #F68247;
+    width: 100%;
+}
+
+#services {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#services h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-services {
+    text-align: center;
+}
+
+.item-services p {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.item-services a {
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #F68247;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-services img {
+    width: 80%;
+    margin: auto;
+}
