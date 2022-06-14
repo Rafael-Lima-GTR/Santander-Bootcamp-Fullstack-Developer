@@ -108,3 +108,7 @@ header .menu {
     margin-bottom: 10px;
     width: 90%;
 }
+
+#who-we-are img {
+    min-width: 420px;
+}
