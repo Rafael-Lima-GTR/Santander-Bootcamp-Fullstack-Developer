@@ -169,32 +169,42 @@ header .menu {
 #plans {
     flex-direction: column;
     min-width: 100vh;
+    padding-top: 50px;
+}
+
+#plans h2 {
+    font-size: 32px;
+    color: #F68247;
 }
 
 .list-plans {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
-.item-plans{
+
+.item-plans {
     flex: 1;
     border: 5px solid #F68247;
     margin-right: 20px;
     padding: 10px;
+    max-width: 240px;
 }
 
-.item-plans .btn{
-   margin: auto;
-   margin-bottom: 20px;
+.item-plans .btn {
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.item-plans h3{
+.item-plans h3 {
     font-size: 24px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
 }
 
-.item-plans h3::after{
+.item-plans h3::after {
     content: "";
     background-color: #F68247;
     width: 100%;
@@ -203,8 +213,23 @@ header .menu {
     margin-bottom: 10px;
 }
 
-.item-plans ul{
+.item-plans ul {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plans ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plans ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #F68247;
+    margin-right: 5px;
 }
